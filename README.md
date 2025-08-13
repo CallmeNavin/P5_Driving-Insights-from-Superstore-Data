@@ -1,5 +1,7 @@
 # Driving-Insights-from-Superstore-Data
 
+**VERSION 1**
+
 **A. Project Overview**
 
 This project analyzes Sales, Profit, and Profit Margin for a retail superstore dataset using Power BI.
@@ -100,7 +102,32 @@ Actionable Insights:
 - Extend analysis to predictive modeling (Sales & Profit Forecasting)
 - Develop price elasticity model for discount optimization
 
-**F. About Me**
+**VERSION 2**
+
+**F. Methods**
+
+I applied Linear Regression and Random Forest Regressor models to predict Profit. 
+Among them, the Random Forest Regressor demonstrated higher accuracy and reliability.
+
+**G. Dashboard Structure & Key Insights**
+
+_**VII. Predictive Analysis**_
+
+Key Findings:
+
+- Random Forest outperforms Linear Regression significantly:
+  MAE reduced from 50.0 to 20.3 (~60% improvement).
+  RMSE reduced from 111.6 to 68.4 (~39% improvement).
+  R² increased from 0.6166 to 0.8558, meaning the model explains 85.6% of the variation in Profit.
+- The top three factors impacting Profit the most are Sales, Discount, and Quantity
+
+Actionable Insights:
+
+- Adopt Random Forest for future profit prediction tasks.
+- Optimize pricing and discount strategies, as they have the strongest effect on profitability.
+- Adjust inventory planning and sales campaigns based on Quantity sold to improve profit margins.
+
+**H. About Me**
 
 Hi, I'm Navin – an aspiring Data Analyst passionate about turning raw data into actionable business insights.
 In this project, I performed **EDA, feature engineering, and dashboard storytelling** to demonstrate HR analytics skills.  
