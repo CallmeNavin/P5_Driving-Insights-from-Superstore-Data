@@ -133,4 +133,8 @@ Hi, I'm Navin – an aspiring Data Analyst passionate about turning raw data int
 In this project, I performed **EDA, feature engineering, and dashboard storytelling** to demonstrate HR analytics skills.  
 - 📊 Skills: SQL, Python, Power BI.  
 - 🌐 LinkedIn: https://www.linkedin.com/in/navin826/
-- 📂 Portfolio: https://github.com/CallmeNavin/  
+- 📂 Portfolio: https://github.com/CallmeNavin/
+
+_**Notes:**_
+
+This dashboard.pbix contains both Descriptive (v1) and Predictive (v2) analysis. Updated regularly based on the latest data.
