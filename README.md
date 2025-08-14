@@ -127,6 +127,10 @@ Actionable Insights:
 - Optimize pricing and discount strategies, as they have the strongest effect on profitability.
 - Adjust inventory planning and sales campaigns based on Quantity sold to improve profit margins.
 
+**VERSION 3 - TUNING**
+
+Attempted hyperparameter tuning using RandomizedSearchCV. The tuned model did not outperform the baseline Random Forest, so the original model was retained for final use.
+
 **H. About Me**
 
 Hi, I'm Navin – an aspiring Data Analyst passionate about turning raw data into actionable business insights.
