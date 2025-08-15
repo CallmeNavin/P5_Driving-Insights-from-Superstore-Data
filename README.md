@@ -134,8 +134,8 @@ Attempted hyperparameter tuning using RandomizedSearchCV. The tuned model did no
 **H. About Me**
 
 Hi, I'm Navin – an aspiring Data Analyst passionate about turning raw data into actionable business insights.
-In this project, I performed **EDA, feature engineering, and dashboard storytelling** to demonstrate HR analytics skills.  
-- 📊 Skills: SQL, Python, Power BI.  
+
+Follow me at: 
 - 🌐 LinkedIn: https://www.linkedin.com/in/navin826/
 - 📂 Portfolio: https://github.com/CallmeNavin/
 
