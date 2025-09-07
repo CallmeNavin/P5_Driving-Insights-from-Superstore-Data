@@ -126,6 +126,43 @@ _**Actionable Plans**_
 
 Attempted hyperparameter tuning using RandomizedSearchCV. The tuned model did not outperform the baseline Random Forest, so the original model was retained for final use.
 
+**VERSION 4 - TIME-SERIES FORECASTING**
+
+**A. Project Overview**
+
+- This project predict future profit based on Order Date using Time-series models, comparing simple baseline models to SARIMAX to identify the best approach.
+
+**B. Methodology**
+
+- Basic EDA
+- Actions after Basic EDA:
+  + Change dtype of 'Order Date', 'Ship Date' column from object to datetime
+- Predictive Analysis Setup:
+  + Set the time index to Order Date
+  + Resample by Week
+  + Group by Category
+  + Train/Test Split
+- Modeling:
+  + Naive Forecast
+  + Exponential Smoothing (Holt-Winters)
+  + SARIMAX
+
+**C. Key Findings & Actionable Plans**
+
+_**Key Findings**_
+
+![SARIMAX Result](https://github.com/CallmeNavin/P5_Driving-Insights-from-Superstore-Data/blob/main/Version%204%20-%20Time-Series%20Forecasting/Visualization/SARIMAX%20Result.png)
+
+- Best model: SARIMA(1,1,1) × (1,1,0,52)
+- Baseline AIC = 1894.6 while Best model AIC = 900.72 → SARIMAX Model after fix is better than Baseline Models (Naive Forecast, Exponential Smoothing (Holt-Winters))
+- MAPE ~ 2% → Mostly Exact Prediction
+
+**_Actionable Plans_**
+
+- Leverage SARIMAX model as a profit monitoring tool: compare forecasted profit against actual results to evaluate business performance and improve forecasting accuracy over time:
+  + Detect upcoming downturns in profit and proactively adjust strategies
+  + Utilize the weekly profit forecasts to support financial planning and budget allocation.
+
 **About Me**
 
 Hi, I'm Navin – an aspiring Data Analyst passionate about turning raw data into actionable business insights.
@@ -133,7 +170,3 @@ Hi, I'm Navin – an aspiring Data Analyst passionate about turning raw data int
 Follow me at: 
 - 🌐 LinkedIn: https://www.linkedin.com/in/navin826/
 - 📂 Portfolio: https://github.com/CallmeNavin/
-
-_**Notes:**_
-
-This dashboard.pbix contains both Descriptive (v1) and Predictive (v2) analysis. Updated regularly based on the latest data.
