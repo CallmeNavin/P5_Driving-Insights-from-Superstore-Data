@@ -1,6 +1,6 @@
 # Driving-Insights-from-Superstore-Data
 
-**VERSION 1**
+**VERSION 1 - DESCRIPTIVE ANALYSIS**
 
 **A. Project Overview**
 
@@ -32,7 +32,7 @@ Visualization in Power BI:
 - KPI cards, line charts, bar charts, donut charts
 - Segmentation by Category, Customer Segment, City, Product
 
-**D. Dashboard Structure & Key Insights**
+**D. Key Findings & Actionable Plans**
 
 _**I. Sales & Profitability Overview**_
 
@@ -41,7 +41,7 @@ Key Findings:
 - Technology has the highest profit margin → prioritize investment & expansion.
 - Furniture has the lowest margin → optimize costs & supplier selection.
 
-Actionable Insights:
+Actionable Plans:
 - Focus marketing & inventory on Technology during Q4.
 - Audit Furniture supply chain to improve margin.
 
@@ -52,7 +52,7 @@ Key Findings:
 - Technology shows volatility but good margins overall.
 - Consumer Segment yields higher margins vs Corporate & Home Office.
 
-Actionable Insights:
+Actionable Plans:
 - Stabilize Technology margin through supply & pricing strategy.
 - Target campaigns at Consumer Segment.
 
@@ -62,7 +62,7 @@ Key Findings:
 - 51% of customers are Consumers, but Home Office yields the highest margin.
 - Philadelphia city stands out with negative profit.
 
-Actionable Insights:
+Actionable Plans:
 - Strengthen loyalty programs for top-spending customers.
 - Investigate Philadelphia’s losses → adjust pricing & operations.
 
@@ -73,7 +73,7 @@ Key Findings:
 - Highest margin products: Labels, Paper, Envelopes (all Office Supplies).
 - Some high-volume products have low margin (Binder, Art).
 
-Actionable Insights:
+Actionable Plans:
 - Focus marketing & production on Office Supplies for Home Office segment.
 - Negotiate with suppliers or adjust pricing for low-margin, high-volume products.
 
@@ -83,7 +83,7 @@ Key Findings:
 - Standard Class accounts for >50% of orders.
 - 40% of orders have shipping delay (>5 days).
 
-Actionable Insights:
+Actionable Plans:
 - Reduce delivery time for Standard Class.
 - Consider shifting part of orders to faster shipping methods.
 
@@ -94,26 +94,19 @@ Key Findings:
 - Central region applies the most discounts.
 - Furniture has low margin yet high discounts.
 
-Actionable Insights:
+Actionable Plans:
 - Optimize discount levels based on margin threshold.
 - Limit discounts for Furniture while improving quality & service.
 
-**E. Next Steps**
-- Extend analysis to predictive modeling (Sales & Profit Forecasting)
-- Develop price elasticity model for discount optimization
+**VERSION 2 - PREDICTIVE ANALYSIS**
 
-**VERSION 2**
+**A. Project Overview**
 
-**F. Methods**
+- Applied Linear Regression and Random Forest Regressor models to predict Profit. 
 
-I applied Linear Regression and Random Forest Regressor models to predict Profit. 
-Among them, the Random Forest Regressor demonstrated higher accuracy and reliability.
+**B. Key Findings & Actionable Plans**
 
-**G. Dashboard Structure & Key Insights**
-
-_**VII. Predictive Analysis**_
-
-Key Findings:
+_**Key Findings**_
 
 - Random Forest outperforms Linear Regression significantly:
   MAE reduced from 50.0 to 20.3 (~60% improvement).
@@ -121,7 +114,7 @@ Key Findings:
   R² increased from 0.6166 to 0.8558, meaning the model explains 85.6% of the variation in Profit.
 - The top three factors impacting Profit the most are Sales, Discount, and Quantity
 
-Actionable Insights:
+_**Actionable Plans**_
 
 - Adopt Random Forest for future profit prediction tasks.
 - Optimize pricing and discount strategies, as they have the strongest effect on profitability.
@@ -131,7 +124,7 @@ Actionable Insights:
 
 Attempted hyperparameter tuning using RandomizedSearchCV. The tuned model did not outperform the baseline Random Forest, so the original model was retained for final use.
 
-**H. About Me**
+**About Me**
 
 Hi, I'm Navin – an aspiring Data Analyst passionate about turning raw data into actionable business insights.
 
