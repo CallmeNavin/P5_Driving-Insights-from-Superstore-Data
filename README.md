@@ -10,7 +10,9 @@ The output includes:
 - A multi-page Power BI dashboard with actionable business insights.
 - A set of recommendations for improving profitability and operational efficiency.
 
-![Dashboard Visualization](https://github.com/CallmeNavin/P5_Driving-Insights-from-Superstore-Data/blob/main/Version%201%20-%20Descriptive%20Analytics/Visualization/Overview.png)
+![Dashboard Visualization](https://github.com/CallmeNavin/P5_Driving-Insights-from-Superstore-Data/blob/main/Version%201%20-%20Descriptive%20Analytics/Visualization/Dashboard.png)
+
+_Explore more insights in the full Power BI dashboard_
 
 **B. Dataset Information**
 - Source: Sample Superstore Dataset (cleaned & filtered) 
